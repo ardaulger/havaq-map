@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_d524e6cbad67e7825c4612ff8f71a4bd {
+                #map_51ddb613eeac5eff482b151f12e3479e {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -70,14 +70,22 @@
     <img src="../images/4006_logo.png" alt="kalite değerleri" style="width: 100%; height: auto;">
 </div>
     
-            <div class="folium-map" id="map_d524e6cbad67e7825c4612ff8f71a4bd" ></div>
+    <style>
+        .leaflet-container {
+            width: 100%;
+            height: 100vh;
+        }
+    </style>
+    
+    
+            <div class="folium-map" id="map_51ddb613eeac5eff482b151f12e3479e" ></div>
         
 </body>
 <script>
     
     
-            var map_d524e6cbad67e7825c4612ff8f71a4bd = L.map(
-                "map_d524e6cbad67e7825c4612ff8f71a4bd",
+            var map_51ddb613eeac5eff482b151f12e3479e = L.map(
+                "map_51ddb613eeac5eff482b151f12e3479e",
                 {
                     center: [40.795, 30.7481],
                     crs: L.CRS.EPSG3857,
@@ -94,7 +102,7 @@
 
         
     
-            var tile_layer_85b3c6f96ed0101928deacda616bdf9d = L.tileLayer(
+            var tile_layer_e07159843318067cf90c0e5561fbdca3 = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {
   "minZoom": 0,
@@ -111,17 +119,17 @@
             );
         
     
-            tile_layer_85b3c6f96ed0101928deacda616bdf9d.addTo(map_d524e6cbad67e7825c4612ff8f71a4bd);
+            tile_layer_e07159843318067cf90c0e5561fbdca3.addTo(map_51ddb613eeac5eff482b151f12e3479e);
         
     
-            var marker_ed27ce17f1db9d031b1925111a80f376 = L.marker(
+            var marker_4c81beb23be63e1c6011acff41c9d695 = L.marker(
                 [40.788399, 29.732679],
                 {
 }
-            ).addTo(map_d524e6cbad67e7825c4612ff8f71a4bd);
+            ).addTo(map_51ddb613eeac5eff482b151f12e3479e);
         
     
-            var icon_c5a811f94dc29e3ff762c42f409f3045 = L.AwesomeMarkers.icon(
+            var icon_8d4a1252623fd8dac41762b8198f08da = L.AwesomeMarkers.icon(
                 {
   "markerColor": "lightgreen",
   "iconColor": "white",
@@ -132,34 +140,34 @@
             );
         
     
-        var popup_a81ea08a9a736872a49c7f3a958282f8 = L.popup({
+        var popup_542ab961f19340e9f12a315ec3474a9d = L.popup({
   "maxWidth": 300,
 });
 
         
             
-                var html_aa4c7bf2cbdb3d680983d4081cb77039 = $(`<div id="html_aa4c7bf2cbdb3d680983d4081cb77039" style="width: 100.0%; height: 100.0%;">         <div style="             font-family: Arial, sans-serif;              font-size: 12px;              line-height: 1.5;              padding: 10px;              border: 1px solid #ddd;              border-radius: 10px;              background-color: #fffff;              color: #333;">             <!-- Başlık -->             <div style="text-align: center; font-weight: bold; font-size: 12px; margin-bottom: 10px; color: #007BFF;">                 HAVA KALİTESİ ÖLÇÜM VERİLERİ             </div>             <!-- İkon -->             <div style="text-align: center; margin-bottom: 10px;">                 <img src="../images/aqi_icon.png" alt="Kalite İkonu" style="width: 40px; height: auto;">             </div>             <!-- Konum Bilgileri -->             <div>                 <b>Enlem:</b> 40.788399<br>                 <b>Boylam:</b> 29.732679<br>                 <b>Şehir:</b> Körfez<br>                 <hr style="border: 0; height: 1px; background-color: #ddd; margin: 10px 0;">             </div>             <!-- Kirletici Parametreler -->             <div>                 <b>KİRLETİCİ PARAMETRELER</b><br>                 <b>Ölçüm Zamanı:</b> 2025-04-13 00:24:10<br>                 <b>PM2.5:</b> 90 µg/m³<br>                 <b>PM10:</b> 80 µg/m³<br>                 <b>CO:</b> 0.2928 ppm<br>                 <b>NO2:</b> 0.1 ppb<br>                 <b>O3:</b> Ölçüm Yapılmadı! ppb<br>                 <b>SO2:</b> Ölçüm Yapılmadı! ppb<br>                 <b>Sıcaklık:</b> 16.3 °C<br>                 <b>Nem:</b> 50.0 %<br>                 <hr style="border: 0; height: 1px; background-color: #ddd; margin: 10px 0;">             </div>             <!-- Hava Kalitesi ve Açıklama -->             <div>                 <b>Hava Kalitesi (AQI) Ortalama:</b> 58.65<br>                 <b>Hava Kalitesi:</b> Orta<br>                 <b>Açıklama:</b> Hassas gruplar etkilenebilir.<br>             </div>         </div>             </div>`)[0];
-                popup_a81ea08a9a736872a49c7f3a958282f8.setContent(html_aa4c7bf2cbdb3d680983d4081cb77039);
+                var html_3739d97298812eec158859937e22d96d = $(`<div id="html_3739d97298812eec158859937e22d96d" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial, sans-serif; font-size: 14px; line-height: 1.5; padding: 10px; border: 1px solid #ddd; border-radius: 10px; background-color: #fffff; color: #333;">             <div style="text-align: center; font-weight: bold; font-size: 14px; margin-bottom: 10px; color: #007BFF;">                 HAVA KALİTESİ ÖLÇÜM VERİLERİ             </div>             <div>                 <b>Enlem:</b> 40.788399<br>                 <b>Boylam:</b> 29.732679<br>                 <b>Şehir:</b> Körfez<br>                 <hr style="border: 0; height: 1px; background-color: #ddd; margin: 10px 0;">             </div>             <div>                 <b>KİRLETİCİ PARAMETRELER</b><br>                 <b>PM2.5:</b> 90 µg/m³<br>                 <b>PM10:</b> 80 µg/m³<br>                 <b>CO:</b> 0.2928 ppm<br>                 <b>NO2:</b> 0.1 ppb<br>                 <b>O3:</b> Ölçüm Yapılmadı!<br>                 <b>SO2:</b> Ölçüm Yapılmadı!<br>                 <b>Sıcaklık:</b> 16.3 °C<br>                 <b>Nem:</b> 50.0 %<br>                 <hr style="border: 0; height: 1px; background-color: #ddd; margin: 10px 0;">             </div>         </div>         </div>`)[0];
+                popup_542ab961f19340e9f12a315ec3474a9d.setContent(html_3739d97298812eec158859937e22d96d);
             
         
 
-        marker_ed27ce17f1db9d031b1925111a80f376.bindPopup(popup_a81ea08a9a736872a49c7f3a958282f8)
+        marker_4c81beb23be63e1c6011acff41c9d695.bindPopup(popup_542ab961f19340e9f12a315ec3474a9d)
         ;
 
         
     
     
-                marker_ed27ce17f1db9d031b1925111a80f376.setIcon(icon_c5a811f94dc29e3ff762c42f409f3045);
+                marker_4c81beb23be63e1c6011acff41c9d695.setIcon(icon_8d4a1252623fd8dac41762b8198f08da);
             
     
-            var marker_e03e70bd1cd25b2d1a3d42a10b415f1b = L.marker(
+            var marker_6311c3b657ab02fe44b67f274a0b6497 = L.marker(
                 [40.788399, 30.732679],
                 {
 }
-            ).addTo(map_d524e6cbad67e7825c4612ff8f71a4bd);
+            ).addTo(map_51ddb613eeac5eff482b151f12e3479e);
         
     
-            var icon_503b1be09822c0ba82114df8df6a242e = L.AwesomeMarkers.icon(
+            var icon_0171e293a5d66ac750e8bef00d1695d4 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "green",
   "iconColor": "white",
@@ -170,34 +178,34 @@
             );
         
     
-        var popup_8a162ba103cba42267658139c5d33e50 = L.popup({
+        var popup_45d6b0ab26afabfbf1e75bb0666875ec = L.popup({
   "maxWidth": 300,
 });
 
         
             
-                var html_b0aefee07f862a30b0b7cdbeed89b0f5 = $(`<div id="html_b0aefee07f862a30b0b7cdbeed89b0f5" style="width: 100.0%; height: 100.0%;">         <div style="             font-family: Arial, sans-serif;              font-size: 12px;              line-height: 1.5;              padding: 10px;              border: 1px solid #ddd;              border-radius: 10px;              background-color: #fffff;              color: #333;">             <!-- Başlık -->             <div style="text-align: center; font-weight: bold; font-size: 12px; margin-bottom: 10px; color: #007BFF;">                 HAVA KALİTESİ ÖLÇÜM VERİLERİ             </div>             <!-- İkon -->             <div style="text-align: center; margin-bottom: 10px;">                 <img src="../images/aqi_icon.png" alt="Kalite İkonu" style="width: 40px; height: auto;">             </div>             <!-- Konum Bilgileri -->             <div>                 <b>Enlem:</b> 40.788399<br>                 <b>Boylam:</b> 30.732679<br>                 <b>Şehir:</b> Hendek<br>                 <hr style="border: 0; height: 1px; background-color: #ddd; margin: 10px 0;">             </div>             <!-- Kirletici Parametreler -->             <div>                 <b>KİRLETİCİ PARAMETRELER</b><br>                 <b>Ölçüm Zamanı:</b> 2025-04-13 00:24:11<br>                 <b>PM2.5:</b> 46.0 µg/m³<br>                 <b>PM10:</b> 53.0 µg/m³<br>                 <b>CO:</b> 0.2928 ppm<br>                 <b>NO2:</b> 0.1 ppb<br>                 <b>O3:</b> Ölçüm Yapılmadı! ppb<br>                 <b>SO2:</b> Ölçüm Yapılmadı! ppb<br>                 <b>Sıcaklık:</b> 16.3 °C<br>                 <b>Nem:</b> 50.0 %<br>                 <hr style="border: 0; height: 1px; background-color: #ddd; margin: 10px 0;">             </div>             <!-- Hava Kalitesi ve Açıklama -->             <div>                 <b>Hava Kalitesi (AQI) Ortalama:</b> 44.72<br>                 <b>Hava Kalitesi:</b> İyi<br>                 <b>Açıklama:</b> Hava kalitesi sağlıklı.<br>             </div>         </div>             </div>`)[0];
-                popup_8a162ba103cba42267658139c5d33e50.setContent(html_b0aefee07f862a30b0b7cdbeed89b0f5);
+                var html_da5e2a72a2e000bf2d624813cd04819d = $(`<div id="html_da5e2a72a2e000bf2d624813cd04819d" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial, sans-serif; font-size: 14px; line-height: 1.5; padding: 10px; border: 1px solid #ddd; border-radius: 10px; background-color: #fffff; color: #333;">             <div style="text-align: center; font-weight: bold; font-size: 14px; margin-bottom: 10px; color: #007BFF;">                 HAVA KALİTESİ ÖLÇÜM VERİLERİ             </div>             <div>                 <b>Enlem:</b> 40.788399<br>                 <b>Boylam:</b> 30.732679<br>                 <b>Şehir:</b> Hendek<br>                 <hr style="border: 0; height: 1px; background-color: #ddd; margin: 10px 0;">             </div>             <div>                 <b>KİRLETİCİ PARAMETRELER</b><br>                 <b>PM2.5:</b> 46.0 µg/m³<br>                 <b>PM10:</b> 53.0 µg/m³<br>                 <b>CO:</b> 0.2928 ppm<br>                 <b>NO2:</b> 0.1 ppb<br>                 <b>O3:</b> Ölçüm Yapılmadı!<br>                 <b>SO2:</b> Ölçüm Yapılmadı!<br>                 <b>Sıcaklık:</b> 16.3 °C<br>                 <b>Nem:</b> 50.0 %<br>                 <hr style="border: 0; height: 1px; background-color: #ddd; margin: 10px 0;">             </div>         </div>         </div>`)[0];
+                popup_45d6b0ab26afabfbf1e75bb0666875ec.setContent(html_da5e2a72a2e000bf2d624813cd04819d);
             
         
 
-        marker_e03e70bd1cd25b2d1a3d42a10b415f1b.bindPopup(popup_8a162ba103cba42267658139c5d33e50)
+        marker_6311c3b657ab02fe44b67f274a0b6497.bindPopup(popup_45d6b0ab26afabfbf1e75bb0666875ec)
         ;
 
         
     
     
-                marker_e03e70bd1cd25b2d1a3d42a10b415f1b.setIcon(icon_503b1be09822c0ba82114df8df6a242e);
+                marker_6311c3b657ab02fe44b67f274a0b6497.setIcon(icon_0171e293a5d66ac750e8bef00d1695d4);
             
     
-            var marker_37b4d33f3c792ff53c52fdfa56413446 = L.marker(
+            var marker_14441ee2d79f0ad447c39654395f3661 = L.marker(
                 [40.788532, 30.732491],
                 {
 }
-            ).addTo(map_d524e6cbad67e7825c4612ff8f71a4bd);
+            ).addTo(map_51ddb613eeac5eff482b151f12e3479e);
         
     
-            var icon_4254f49bacbe3f951835d7816a00c2e2 = L.AwesomeMarkers.icon(
+            var icon_34119f22fbcc836c904efb070acaf3a8 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "green",
   "iconColor": "white",
@@ -208,34 +216,34 @@
             );
         
     
-        var popup_77d605c34faabdf9c4db9cceb9e025e3 = L.popup({
+        var popup_3b9872cbfa0978f0b039d307820c9316 = L.popup({
   "maxWidth": 300,
 });
 
         
             
-                var html_c3904240cc84c2408e6982cf6016e636 = $(`<div id="html_c3904240cc84c2408e6982cf6016e636" style="width: 100.0%; height: 100.0%;">         <div style="             font-family: Arial, sans-serif;              font-size: 12px;              line-height: 1.5;              padding: 10px;              border: 1px solid #ddd;              border-radius: 10px;              background-color: #fffff;              color: #333;">             <!-- Başlık -->             <div style="text-align: center; font-weight: bold; font-size: 12px; margin-bottom: 10px; color: #007BFF;">                 HAVA KALİTESİ ÖLÇÜM VERİLERİ             </div>             <!-- İkon -->             <div style="text-align: center; margin-bottom: 10px;">                 <img src="../images/aqi_icon.png" alt="Kalite İkonu" style="width: 40px; height: auto;">             </div>             <!-- Konum Bilgileri -->             <div>                 <b>Enlem:</b> 40.788532<br>                 <b>Boylam:</b> 30.732491<br>                 <b>Şehir:</b> Hendek<br>                 <hr style="border: 0; height: 1px; background-color: #ddd; margin: 10px 0;">             </div>             <!-- Kirletici Parametreler -->             <div>                 <b>KİRLETİCİ PARAMETRELER</b><br>                 <b>Ölçüm Zamanı:</b> 2025-04-14 23:45:16<br>                 <b>PM2.5:</b> 7.0 µg/m³<br>                 <b>PM10:</b> 9.0 µg/m³<br>                 <b>CO:</b> 2.8659 ppm<br>                 <b>NO2:</b> 0.0 ppb<br>                 <b>O3:</b> Ölçüm Yapılmadı! ppb<br>                 <b>SO2:</b> Ölçüm Yapılmadı! ppb<br>                 <b>Sıcaklık:</b> 25.9 °C<br>                 <b>Nem:</b> 45.0 %<br>                 <hr style="border: 0; height: 1px; background-color: #ddd; margin: 10px 0;">             </div>             <!-- Hava Kalitesi ve Açıklama -->             <div>                 <b>Hava Kalitesi (AQI) Ortalama:</b> 17.52<br>                 <b>Hava Kalitesi:</b> İyi<br>                 <b>Açıklama:</b> Hava kalitesi sağlıklı.<br>             </div>         </div>             </div>`)[0];
-                popup_77d605c34faabdf9c4db9cceb9e025e3.setContent(html_c3904240cc84c2408e6982cf6016e636);
+                var html_a13e56eb2cfde20ad66443d3ec009ec2 = $(`<div id="html_a13e56eb2cfde20ad66443d3ec009ec2" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial, sans-serif; font-size: 14px; line-height: 1.5; padding: 10px; border: 1px solid #ddd; border-radius: 10px; background-color: #fffff; color: #333;">             <div style="text-align: center; font-weight: bold; font-size: 14px; margin-bottom: 10px; color: #007BFF;">                 HAVA KALİTESİ ÖLÇÜM VERİLERİ             </div>             <div>                 <b>Enlem:</b> 40.788532<br>                 <b>Boylam:</b> 30.732491<br>                 <b>Şehir:</b> Hendek<br>                 <hr style="border: 0; height: 1px; background-color: #ddd; margin: 10px 0;">             </div>             <div>                 <b>KİRLETİCİ PARAMETRELER</b><br>                 <b>PM2.5:</b> 7.0 µg/m³<br>                 <b>PM10:</b> 9.0 µg/m³<br>                 <b>CO:</b> 2.8659 ppm<br>                 <b>NO2:</b> 0.0 ppb<br>                 <b>O3:</b> Ölçüm Yapılmadı!<br>                 <b>SO2:</b> Ölçüm Yapılmadı!<br>                 <b>Sıcaklık:</b> 25.9 °C<br>                 <b>Nem:</b> 45.0 %<br>                 <hr style="border: 0; height: 1px; background-color: #ddd; margin: 10px 0;">             </div>         </div>         </div>`)[0];
+                popup_3b9872cbfa0978f0b039d307820c9316.setContent(html_a13e56eb2cfde20ad66443d3ec009ec2);
             
         
 
-        marker_37b4d33f3c792ff53c52fdfa56413446.bindPopup(popup_77d605c34faabdf9c4db9cceb9e025e3)
+        marker_14441ee2d79f0ad447c39654395f3661.bindPopup(popup_3b9872cbfa0978f0b039d307820c9316)
         ;
 
         
     
     
-                marker_37b4d33f3c792ff53c52fdfa56413446.setIcon(icon_4254f49bacbe3f951835d7816a00c2e2);
+                marker_14441ee2d79f0ad447c39654395f3661.setIcon(icon_34119f22fbcc836c904efb070acaf3a8);
             
     
-            var marker_c8ab8aa38165d8395929c549284a068d = L.marker(
+            var marker_ee8a12644c53b6840847cccedae97f2c = L.marker(
                 [40.788532, 30.732491],
                 {
 }
-            ).addTo(map_d524e6cbad67e7825c4612ff8f71a4bd);
+            ).addTo(map_51ddb613eeac5eff482b151f12e3479e);
         
     
-            var icon_c589722bd8ccd2846922de09c81d33c6 = L.AwesomeMarkers.icon(
+            var icon_bbfa87c22c5578ee117a3fadafda9caa = L.AwesomeMarkers.icon(
                 {
   "markerColor": "green",
   "iconColor": "white",
@@ -246,34 +254,34 @@
             );
         
     
-        var popup_c6796ed0b5518c97bc885b99aa061277 = L.popup({
+        var popup_d9464291fde5bfa487e3ccac66938d18 = L.popup({
   "maxWidth": 300,
 });
 
         
             
-                var html_03b5eae1ae212e0e397d2cd65281d2c9 = $(`<div id="html_03b5eae1ae212e0e397d2cd65281d2c9" style="width: 100.0%; height: 100.0%;">         <div style="             font-family: Arial, sans-serif;              font-size: 12px;              line-height: 1.5;              padding: 10px;              border: 1px solid #ddd;              border-radius: 10px;              background-color: #fffff;              color: #333;">             <!-- Başlık -->             <div style="text-align: center; font-weight: bold; font-size: 12px; margin-bottom: 10px; color: #007BFF;">                 HAVA KALİTESİ ÖLÇÜM VERİLERİ             </div>             <!-- İkon -->             <div style="text-align: center; margin-bottom: 10px;">                 <img src="../images/aqi_icon.png" alt="Kalite İkonu" style="width: 40px; height: auto;">             </div>             <!-- Konum Bilgileri -->             <div>                 <b>Enlem:</b> 40.788532<br>                 <b>Boylam:</b> 30.732491<br>                 <b>Şehir:</b> Hendek<br>                 <hr style="border: 0; height: 1px; background-color: #ddd; margin: 10px 0;">             </div>             <!-- Kirletici Parametreler -->             <div>                 <b>KİRLETİCİ PARAMETRELER</b><br>                 <b>Ölçüm Zamanı:</b> 2025-04-14 23:45:17<br>                 <b>PM2.5:</b> 7.0 µg/m³<br>                 <b>PM10:</b> 9.0 µg/m³<br>                 <b>CO:</b> 2.8659 ppm<br>                 <b>NO2:</b> 0.0 ppb<br>                 <b>O3:</b> Ölçüm Yapılmadı! ppb<br>                 <b>SO2:</b> Ölçüm Yapılmadı! ppb<br>                 <b>Sıcaklık:</b> 25.9 °C<br>                 <b>Nem:</b> 45.0 %<br>                 <hr style="border: 0; height: 1px; background-color: #ddd; margin: 10px 0;">             </div>             <!-- Hava Kalitesi ve Açıklama -->             <div>                 <b>Hava Kalitesi (AQI) Ortalama:</b> 17.52<br>                 <b>Hava Kalitesi:</b> İyi<br>                 <b>Açıklama:</b> Hava kalitesi sağlıklı.<br>             </div>         </div>             </div>`)[0];
-                popup_c6796ed0b5518c97bc885b99aa061277.setContent(html_03b5eae1ae212e0e397d2cd65281d2c9);
+                var html_75c06e16832f634525e627101ec12de5 = $(`<div id="html_75c06e16832f634525e627101ec12de5" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial, sans-serif; font-size: 14px; line-height: 1.5; padding: 10px; border: 1px solid #ddd; border-radius: 10px; background-color: #fffff; color: #333;">             <div style="text-align: center; font-weight: bold; font-size: 14px; margin-bottom: 10px; color: #007BFF;">                 HAVA KALİTESİ ÖLÇÜM VERİLERİ             </div>             <div>                 <b>Enlem:</b> 40.788532<br>                 <b>Boylam:</b> 30.732491<br>                 <b>Şehir:</b> Hendek<br>                 <hr style="border: 0; height: 1px; background-color: #ddd; margin: 10px 0;">             </div>             <div>                 <b>KİRLETİCİ PARAMETRELER</b><br>                 <b>PM2.5:</b> 7.0 µg/m³<br>                 <b>PM10:</b> 9.0 µg/m³<br>                 <b>CO:</b> 2.8659 ppm<br>                 <b>NO2:</b> 0.0 ppb<br>                 <b>O3:</b> Ölçüm Yapılmadı!<br>                 <b>SO2:</b> Ölçüm Yapılmadı!<br>                 <b>Sıcaklık:</b> 25.9 °C<br>                 <b>Nem:</b> 45.0 %<br>                 <hr style="border: 0; height: 1px; background-color: #ddd; margin: 10px 0;">             </div>         </div>         </div>`)[0];
+                popup_d9464291fde5bfa487e3ccac66938d18.setContent(html_75c06e16832f634525e627101ec12de5);
             
         
 
-        marker_c8ab8aa38165d8395929c549284a068d.bindPopup(popup_c6796ed0b5518c97bc885b99aa061277)
+        marker_ee8a12644c53b6840847cccedae97f2c.bindPopup(popup_d9464291fde5bfa487e3ccac66938d18)
         ;
 
         
     
     
-                marker_c8ab8aa38165d8395929c549284a068d.setIcon(icon_c589722bd8ccd2846922de09c81d33c6);
+                marker_ee8a12644c53b6840847cccedae97f2c.setIcon(icon_bbfa87c22c5578ee117a3fadafda9caa);
             
     
-            var marker_336c8309d5a74e7211491d869159fd67 = L.marker(
+            var marker_2a7f043f43fedc758e604ddb79d50541 = L.marker(
                 [40.788532, 30.732491],
                 {
 }
-            ).addTo(map_d524e6cbad67e7825c4612ff8f71a4bd);
+            ).addTo(map_51ddb613eeac5eff482b151f12e3479e);
         
     
-            var icon_d1f4136eb761d42d7094fd551937928e = L.AwesomeMarkers.icon(
+            var icon_c566c888071781208ea9bd16acef46c3 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "green",
   "iconColor": "white",
@@ -284,27 +292,27 @@
             );
         
     
-        var popup_6dcdb1c389aea3cbafd61e8be4ea46eb = L.popup({
+        var popup_b97ae7b1601f2eae1c1958ae122edc9a = L.popup({
   "maxWidth": 300,
 });
 
         
             
-                var html_bb91701519279feda6fe5bd2b4d5f81f = $(`<div id="html_bb91701519279feda6fe5bd2b4d5f81f" style="width: 100.0%; height: 100.0%;">         <div style="             font-family: Arial, sans-serif;              font-size: 12px;              line-height: 1.5;              padding: 10px;              border: 1px solid #ddd;              border-radius: 10px;              background-color: #fffff;              color: #333;">             <!-- Başlık -->             <div style="text-align: center; font-weight: bold; font-size: 12px; margin-bottom: 10px; color: #007BFF;">                 HAVA KALİTESİ ÖLÇÜM VERİLERİ             </div>             <!-- İkon -->             <div style="text-align: center; margin-bottom: 10px;">                 <img src="../images/aqi_icon.png" alt="Kalite İkonu" style="width: 40px; height: auto;">             </div>             <!-- Konum Bilgileri -->             <div>                 <b>Enlem:</b> 40.788532<br>                 <b>Boylam:</b> 30.732491<br>                 <b>Şehir:</b> Hendek<br>                 <hr style="border: 0; height: 1px; background-color: #ddd; margin: 10px 0;">             </div>             <!-- Kirletici Parametreler -->             <div>                 <b>KİRLETİCİ PARAMETRELER</b><br>                 <b>Ölçüm Zamanı:</b> 2025-04-14 23:45:17<br>                 <b>PM2.5:</b> 7.0 µg/m³<br>                 <b>PM10:</b> 9.0 µg/m³<br>                 <b>CO:</b> 2.8659 ppm<br>                 <b>NO2:</b> 0.0 ppb<br>                 <b>O3:</b> Ölçüm Yapılmadı! ppb<br>                 <b>SO2:</b> Ölçüm Yapılmadı! ppb<br>                 <b>Sıcaklık:</b> 25.9 °C<br>                 <b>Nem:</b> 45.0 %<br>                 <hr style="border: 0; height: 1px; background-color: #ddd; margin: 10px 0;">             </div>             <!-- Hava Kalitesi ve Açıklama -->             <div>                 <b>Hava Kalitesi (AQI) Ortalama:</b> 17.52<br>                 <b>Hava Kalitesi:</b> İyi<br>                 <b>Açıklama:</b> Hava kalitesi sağlıklı.<br>             </div>         </div>             </div>`)[0];
-                popup_6dcdb1c389aea3cbafd61e8be4ea46eb.setContent(html_bb91701519279feda6fe5bd2b4d5f81f);
+                var html_838d527fdfdf713e8de911605267569e = $(`<div id="html_838d527fdfdf713e8de911605267569e" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial, sans-serif; font-size: 14px; line-height: 1.5; padding: 10px; border: 1px solid #ddd; border-radius: 10px; background-color: #fffff; color: #333;">             <div style="text-align: center; font-weight: bold; font-size: 14px; margin-bottom: 10px; color: #007BFF;">                 HAVA KALİTESİ ÖLÇÜM VERİLERİ             </div>             <div>                 <b>Enlem:</b> 40.788532<br>                 <b>Boylam:</b> 30.732491<br>                 <b>Şehir:</b> Hendek<br>                 <hr style="border: 0; height: 1px; background-color: #ddd; margin: 10px 0;">             </div>             <div>                 <b>KİRLETİCİ PARAMETRELER</b><br>                 <b>PM2.5:</b> 7.0 µg/m³<br>                 <b>PM10:</b> 9.0 µg/m³<br>                 <b>CO:</b> 2.8659 ppm<br>                 <b>NO2:</b> 0.0 ppb<br>                 <b>O3:</b> Ölçüm Yapılmadı!<br>                 <b>SO2:</b> Ölçüm Yapılmadı!<br>                 <b>Sıcaklık:</b> 25.9 °C<br>                 <b>Nem:</b> 45.0 %<br>                 <hr style="border: 0; height: 1px; background-color: #ddd; margin: 10px 0;">             </div>         </div>         </div>`)[0];
+                popup_b97ae7b1601f2eae1c1958ae122edc9a.setContent(html_838d527fdfdf713e8de911605267569e);
             
         
 
-        marker_336c8309d5a74e7211491d869159fd67.bindPopup(popup_6dcdb1c389aea3cbafd61e8be4ea46eb)
+        marker_2a7f043f43fedc758e604ddb79d50541.bindPopup(popup_b97ae7b1601f2eae1c1958ae122edc9a)
         ;
 
         
     
     
-                marker_336c8309d5a74e7211491d869159fd67.setIcon(icon_d1f4136eb761d42d7094fd551937928e);
+                marker_2a7f043f43fedc758e604ddb79d50541.setIcon(icon_c566c888071781208ea9bd16acef46c3);
             
     
-            var heat_map_534448ac32bfee784eb71cfd9d8cef24 = L.heatLayer(
+            var heat_map_d88c9536e095ffbbdc82fd8260abd664 = L.heatLayer(
                 [[40.788399, 29.732679, 0.03504], [40.788399, 30.732679, 0.03504], [40.788532, 30.732491, 0.03504], [40.788532, 30.732491, 0.03504], [40.788532, 30.732491, 0.03504]],
                 {
   "minOpacity": 0.4,
@@ -323,7 +331,7 @@
             );
         
     
-            heat_map_534448ac32bfee784eb71cfd9d8cef24.addTo(map_d524e6cbad67e7825c4612ff8f71a4bd);
+            heat_map_d88c9536e095ffbbdc82fd8260abd664.addTo(map_51ddb613eeac5eff482b151f12e3479e);
         
 </script>
 </html>
