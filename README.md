@@ -25,7 +25,7 @@ Bot üzerinden aşağıdaki bilgileri sorgulayabilirsin:
 | Arduino Mega 2560 | Kontrol kartı |
 | PMS5003 | PM2.5/PM10 partikül sensörü |
 | MQ7 / MQ135 | CO / CO₂ gaz sensörleri |
-| DHT22 | Sıcaklık ve nem sensörü |
+| DHT11 | Sıcaklık ve nem sensörü |
 | GPS Modülü | Konum tespiti |
 | SD Kart / Wi-Fi Modülü | Veri kaydı ve aktarımı |
 
