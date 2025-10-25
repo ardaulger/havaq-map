@@ -8,7 +8,7 @@ Arduino tabanlı bir sensör sistemiyle gerçek zamanlı hava kalitesi verilerin
 
 📲 Hemen dene: [https://t.me/HavaQBot](https://t.me/HavaQBot)
 
-📲 Hemen dene: [https://t.me/HavaQBot](https://t.me/HisBot)
+📲 Hemen dene: [https://t.me/HavaQBot](https://t.me/DBFLHisBot)
 
 Bot üzerinden aşağıdaki bilgileri sorgulayabilirsin:
 
@@ -44,6 +44,6 @@ Bot üzerinden aşağıdaki bilgileri sorgulayabilirsin:
 
 ## 🔐 Şartlar ve Koşullar
 
-Botu kullanarak [Şartlar ve Koşullar](https://github.com/ardaulger/havaq-map/blob/main/terms_conditions.md) sayfasındaki tüm maddeleri kabul etmiş sayılırsınız.
+Botları kullanarak [Şartlar ve Koşullar](https://github.com/ardaulger/havaq-map/blob/main/terms_conditions.md) (https://github.com/ardaulger/havaq-map/blob/main/terms_conditions.md)  tüm maddeleri kabul etmiş sayılırsınız.
 
 ---
