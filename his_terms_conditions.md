@@ -2,7 +2,7 @@
 # 📄 HİS BOT – ŞARTLAR VE KOŞULLAR
 
 ## 1. Hizmet Tanımı  
-HİS Bot, kullanıcılara belirli bölgelerde ölçülmüş hava kalitesi verilerini (örneğin PM2.5, PM10, CO, NO₂, sıcaklık, nem vb.) sunmak amacıyla geliştirilmiş bir Telegram botudur. Bot üzerinden sağlanan tüm bilgiler **bilgilendirme ve eğitim amaçlıdır.**
+HİS Bot, kullanıcılara iç ortam hava kalitesi verilerini (örneğin PM2.5, PM10, CO, NO₂, sıcaklık, nem vb.) sunmak amacıyla geliştirilmiş bir Telegram botudur. Bot üzerinden sağlanan tüm bilgiler **bilgilendirme ve eğitim amaçlıdır.**
 
 ---
 
@@ -19,7 +19,7 @@ Bu bot yalnızca **kişisel ve eğitimsel** kullanım içindir. Ticari, siyasi, 
 ---
 
 ## 4. Konum ve Gizlilik  
-HİS Bot, kullanıcıdan anlık konum isteyebilir. Ancak:
+HİS Bot,
 
 - Kullanıcının adı, numarası gibi **kişisel veriler kaydedilmez.**
 - Hiçbir veri üçüncü şahıslarla **paylaşılmaz.**
