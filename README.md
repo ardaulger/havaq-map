@@ -8,7 +8,7 @@ Arduino tabanlı bir sensör sistemiyle gerçek zamanlı hava kalitesi verilerin
 
 📲 Hemen dene: [https://t.me/HavaQBot](https://t.me/HavaQBot)
 
-📲 Hemen dene: [https://t.me/HavaQBot](https://t.me/DBFLHisBot)
+📲 Hemen dene: [https://t.me/DBFLHisBot](https://t.me/DBFLHisBot)
 
 Bot üzerinden aşağıdaki bilgileri sorgulayabilirsin:
 
