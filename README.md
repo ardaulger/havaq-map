@@ -1,12 +1,14 @@
-# 🌍 HAVAQ Bot – Hava Kalitesi İzleme Sistemi
+# 🌍 Hava Kalitesi İzleme Sistemi
 
-HAVAQ, Arduino tabanlı bir sensör sistemiyle gerçek zamanlı hava kalitesi verilerini ölçen ve bu verileri bir **Telegram botu** aracılığıyla kullanıcılara sunan açık kaynaklı bir projedir.
+Arduino tabanlı bir sensör sistemiyle gerçek zamanlı hava kalitesi verilerini ölçen ve bu verileri bir **Telegram botu** aracılığıyla kullanıcılara sunan açık kaynaklı bir projedir.
 
 ---
 
-## 🤖 Telegram Botu
+## 🤖 Telegram Botları
 
 📲 Hemen dene: [https://t.me/HavaQBot](https://t.me/HavaQBot)
+
+📲 Hemen dene: [https://t.me/HavaQBot](https://t.me/HisBot)
 
 Bot üzerinden aşağıdaki bilgileri sorgulayabilirsin:
 
